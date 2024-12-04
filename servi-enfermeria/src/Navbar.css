@@ -1,0 +1,149 @@
+/* Estilos generales para la navbar */
+.navbar {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem 2rem; /* Aumentamos el espaciado */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Contenedor principal de la navbar */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Estilo del logo *//* Estilos generales para la navbar */
+.navbar {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem 2rem; /* Aumentamos el espaciado */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Contenedor principal de la navbar */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Estilo del logo */
+  .navbar-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Lista de enlaces */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem; /* Separación entre los enlaces */
+  }
+  
+  .navbar-links li {
+    display: inline;
+  }
+  
+  /* Estilos de los enlaces */
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: color 0.3s ease;
+  }
+  
+  /* Efecto al pasar el cursor sobre los enlaces */
+  .navbar-links a:hover {
+    color: #ffd700;
+  }
+  
+  /* Estilo para pantallas más grandes */
+  @media (min-width: 768px) {
+    .navbar-container {
+      padding: 0 2rem;
+    }
+  
+    .navbar-links a {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Estilo para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .navbar-links {
+      gap: 1rem;
+    }
+    .navbar-links a {
+      font-size: 1rem;
+    }
+  }
+  
+  .navbar-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Lista de enlaces */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem; /* Separación entre los enlaces */
+  }
+  
+  .navbar-links li {
+    display: inline;
+  }
+  
+  /* Estilos de los enlaces */
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: color 0.3s ease;
+  }
+  
+  /* Efecto al pasar el cursor sobre los enlaces */
+  .navbar-links a:hover {
+    color: #ffd700;
+  }
+  
+  /* Estilo para pantallas más grandes */
+  @media (min-width: 768px) {
+    .navbar-container {
+      padding: 0 2rem;
+    }
+  
+    .navbar-links a {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Estilo para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .navbar-links {
+      gap: 1rem;
+    }
+    .navbar-links a {
+      font-size: 1rem;
+    }
+  }
+  
